@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - namespace.yaml
+  - storefront-service.yaml
+  - inventory-service.yaml
+  - pricing-rules-service.yaml
+  - product-catalog-service.yaml
+  - notification-service.yaml
